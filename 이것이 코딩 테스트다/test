@@ -1,0 +1,12 @@
+n, m = map(int,input().split())
+k = list(map(int, input().split()))
+count = 0
+
+for i in range(n) :
+    for j in range(i, n) :
+        if k[i] != k[j] :
+            count += 1
+        else :
+            continue
+
+print(count)
