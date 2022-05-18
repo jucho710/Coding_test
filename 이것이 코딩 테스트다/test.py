@@ -2,15 +2,13 @@ n, k = map(int, input().split())
 a = list(map(int, input().split()))
 b = list(map(int, input().split()))
 
-a = sorted(a)
-b = sorted(b)
+a.sort()
+b.sort(reverse=True)
 
 for i in range(k):
-    a[i], b[-(i+1)] = b[-(i+1)], a[i]
+    if a[i] < b[i]:
+        a[i], b[i] = b[i], a[i]
+    else:
+        break
 
-result = 0
-for n in a:
-    result += n
-
-print(a)
-print(result)
+print(sum(a))

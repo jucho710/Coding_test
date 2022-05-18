@@ -1,4 +1,4 @@
-# Chapter05. DFS/BFS
+# Chapter 05. DFS/BFS
 
 # 팩토리얼 예제
 
