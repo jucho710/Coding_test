@@ -1,46 +1,60 @@
 import Foundation
-let input = readLine()!.split(separator: " ").map {Int(String($0))!}
-let (n, m, v) = (input[0], input[1], input[2])
-var graph: [[Int]] = Array(repeating: [], count: n+1)
-var visited = Array(repeating: false, count: n+1)
-var answer = ""
 
-for _ in 0..<m {
-  let input = readLine()!.split(separator: " ").map {Int(String($0))!}
-  let (a, b) = (input[0], input[1])
-  graph[a].append(b)
-  graph[b].append(a)
-  // 정점이 작은 것부터 방문해야 해 정렬
-  graph[a].sort()
-  graph[b].sort()
+let input = readLine()!.split(separator: " ").map { Int($0)! }
+let nodes = input[0]
+let edges = input[1]
+let startNode = input[2]
+
+var map = Array(repeating: [Int](), count: nodes + 1)
+
+for _ in 0..<edges {
+    let edge = readLine()!.split(separator: " ").map { Int($0)! }
+    let from = edge[0]
+    let to = edge[1]
+    
+    map[from].append(to)
+    map[to].append(from)
 }
 
-func DFS(_ v: Int) {
-  visited[v] = true
-  answer += "\(v) "
-  for i in graph[v] {
-    if !visited[i] {
-      DFS(i)
+for i in 0...nodes {
+    map[i].sort()
+}
+
+var visited = Array(repeating: false, count: nodes + 1)
+var stack = [Int]()
+
+func dfs(_ node: Int) {
+    visited[node] = true
+    print(node, terminator: " ")
+    
+    for i in 0..<map[node].count {
+        if visited[map[node][i]] { continue }
+        stack.append(map[node][i])
+        if !stack.isEmpty {
+            dfs(stack.removeLast())
+        }
     }
-  }
 }
 
-func BFS(_ v: Int) {
-  var visited = Array(repeating: false, count: n+1)
-  var queue = [v]
-  
-  while queue.count != 0 {
-    let node = queue.removeFirst()
-    if !visited[node] {
-      visited[node] = true
-      answer += "\(node) "
-      queue.append(contentsOf: graph[node])
+dfs(startNode)
+print()
+
+var queue = [Int]()
+func bfs(_ node: Int) {
+    queue.append(node)
+    var idx = 0
+    
+    while idx <= nodes {
+        if idx >= queue.count { break }
+        let cur = queue[idx]
+        for i in 0..<map[cur].count {
+            if queue.contains(map[cur][i]) { continue }
+            queue.append(map[cur][i])
+        }
+        idx += 1
     }
-  }
+
+    queue.forEach { print($0, terminator: " ")}
 }
 
-DFS(v)
-print(answer)
-answer = ""
-BFS(v)
-print(answer)
+bfs(startNode)
