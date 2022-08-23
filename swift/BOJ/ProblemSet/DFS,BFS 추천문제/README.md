@@ -4,8 +4,8 @@
 
 
 
-|Problem #|Title|Link|Code|
-|---|---|---|---|
+|Problem #|Title|Link|Code|1회독|
+|---|---|---|---|---|
 |1260|DFS와 BFS|[링크](https://www.acmicpc.net/problem/1260)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/1260.swift)|
 |2178|미로 탐색|[링크](https://www.acmicpc.net/problem/2178)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/2178.swift)|
 |10451|순열 사이클|[링크](https://www.acmicpc.net/problem/10451)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/10451.swift)|
