@@ -21,3 +21,6 @@
 |4991|로봇 청소기|[링크](https://www.acmicpc.net/problem/4991)|[code](https://github.com/jucho710/Coding_test/blob/main/swift/BOJ/ProblemSet/Short-term%20Growth/4991.swift)|
 |7579|앱|[링크](https://www.acmicpc.net/problem/7579)|[code](https://github.com/jucho710/Coding_test/blob/main/swift/BOJ/ProblemSet/Short-term%20Growth/7579.swift)|
 |10942|팰린드롬?|[링크](https://www.acmicpc.net/problem/10942)|[code](https://github.com/jucho710/Coding_test/blob/main/swift/BOJ/ProblemSet/Short-term%20Growth/10942.swift)|
+|1039|교환|[링크](https://www.acmicpc.net/problem/1039)|[code](https://github.com/jucho710/Coding_test/blob/main/swift/BOJ/ProblemSet/Short-term%20Growth/1039.swift)|
+|9370|미확인 도착지|[링크](https://www.acmicpc.net/problem/9370)|[code](https://github.com/jucho710/Coding_test/blob/main/swift/BOJ/ProblemSet/Short-term%20Growth/9370.swift)|
+|1981|배열에서 이동|[링크](https://www.acmicpc.net/problem/1981)|[code](https://github.com/jucho710/Coding_test/blob/main/swift/BOJ/ProblemSet/Short-term%20Growth/1981.swift)|
