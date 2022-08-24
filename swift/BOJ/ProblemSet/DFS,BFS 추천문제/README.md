@@ -14,8 +14,8 @@
 |2468|안전 영역|[링크](https://www.acmicpc.net/problem/2468)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/2468.swift)|o|
 |11724|연결 요소의 개수|[링크](https://www.acmicpc.net/problem/11724)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/11724.swift)|수정|
 |1697|숨바꼭질|[링크](https://www.acmicpc.net/problem/1697)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/1697.swift)|수정|
-|10971|외판원 순회 2|[링크](https://www.acmicpc.net/problem/10971)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/10971.swift)|
-|2606|바이러스|[링크](https://www.acmicpc.net/problem/2606)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/2606.swift)|
+|10971|외판원 순회 2|[링크](https://www.acmicpc.net/problem/10971)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/10971.swift)||o|
+|2606|바이러스|[링크](https://www.acmicpc.net/problem/2606)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/2606.swift)||o|
 |1600|말이 되고픈 원숭이|[링크](https://www.acmicpc.net/problem/1600)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/1600.swift)|
 |7576|토마토|[링크](https://www.acmicpc.net/problem/7576)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/7576.swift)|
 |9019|DSLR|[링크](https://www.acmicpc.net/problem/9019)|[code](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/DFS%2CBFS%20%EC%B6%94%EC%B2%9C%EB%AC%B8%EC%A0%9C/9019.swift)|
