@@ -1,4 +1,4 @@
-# 백준 문제집 - DFS, BFS 추천문제
+# 백준 문제집 - 다
 
 [링크](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22)
 
