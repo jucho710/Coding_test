@@ -1,4 +1,4 @@
-# 백준 문제집 - 다
+# 백준 문제집 - 다익스트라
 
 [링크](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22)
 
