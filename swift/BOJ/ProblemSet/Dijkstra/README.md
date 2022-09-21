@@ -11,3 +11,5 @@
 |4485|녹색 옷 입은 애가 젤다지?|[링크](https://www.acmicpc.net/problem/4485)| [cpp](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/Dijkstra/cpp/4485.cpp)|  |
 |11779|최소비용 구하기 2|[링크](https://www.acmicpc.net/problem/11779)| [cpp](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/Dijkstra/cpp/11779.cpp)|  |
 |2665|미로 만들기|[링크](https://www.acmicpc.net/problem/2665)| [cpp](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/Dijkstra/cpp/2665.cpp)|  |
+|9370|미확인 도착지|[링크](https://www.acmicpc.net/problem/9370)| [cpp](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/Dijkstra/cpp/9370.cpp)|  |
+|10282|해킹|[링크](https://www.acmicpc.net/problem/10282)| [cpp](https://github.com/wndms710/Coding_test/blob/main/swift/BOJ/ProblemSet/Dijkstra/cpp/10282.cpp)|  |
